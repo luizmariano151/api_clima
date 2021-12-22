@@ -1,1 +1,1 @@
-#Módulo de serviço consultando api de previsão de tempo
+#Módulo de serviço api previsão do tempo
