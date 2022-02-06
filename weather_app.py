@@ -3,9 +3,10 @@ import json
 from datetime import date
 import urllib.parse
 import pprint
+import dados
 
-accuweatherAPIKey = "qnnS7OAUEDRLsWAdKNC3HJG56W0RbS9f"
-mapboxToken = "pk.eyJ1IjoibHVpem1hcmlhbm8iLCJhIjoiY2t0OG05cWxyMTNibjJucndueWtsajd5ayJ9.45AN4RR-bDxDMLGaMGrA3g"
+accuweatherAPIKey = dados.key()
+mapboxToken = dados.token()
 dias_semanas = ["Domingo","Segunda-feira", "Terça-feira", "Quarta-feira","Quinta-feira","Sexta-feira","Sábado"]
 
 def pegarCoordenadas():
