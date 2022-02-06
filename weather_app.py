@@ -2,11 +2,13 @@ import requests
 import json
 from datetime import date
 import urllib.parse
-import pprint
-import dados
+from dotenv import load_dotenv
+import os
 
-accuweatherAPIKey = dados.key()
-mapboxToken = dados.token()
+load_dotenv()
+
+accuweatherAPIKey = os.getenv("KEY")
+mapboxToken = os.getenv("TOKEN")
 dias_semanas = ["Domingo","Segunda-feira", "Terça-feira", "Quarta-feira","Quinta-feira","Sexta-feira","Sábado"]
 
 def pegarCoordenadas():
