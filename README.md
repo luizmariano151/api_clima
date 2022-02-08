@@ -1,1 +1,1 @@
-#Módulo de serviço api previsão do tempo
+#App de previsão do tempo
